@@ -1,0 +1,13 @@
+# PDL well data loading center (dsh-pdl-center)
+# Host half: persistent index for projects / packages / batches / runs / reference libraries / rule templates,
+# plus a controlled executor that drives the project's PDL Python engine.
+# Client half is declared via "dsh.client" in package.json; the browser loads ./client.js.
+#
+# Defaults: `python` falls back to `python` on PATH and `projectRoot` to the host's working directory.
+# Set both for your own project by uncommenting the config block:
+- insert:
+    - id: pdl-center
+      name: dsh-pdl-center
+      # config:
+      #   python: python
+      #   projectRoot: /path/to/your/pdl-project

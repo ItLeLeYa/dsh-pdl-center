@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "PDL well data loading center",
+    "description": "Turn raw well data into GeoEast-ready load packages: batch workbench, six-step wizard, package versions, shared reference library and run records."
+  }
+}

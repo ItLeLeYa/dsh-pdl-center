@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="PDL 井数据整理加载中台">
+  <defs>
+    <linearGradient id="pdlTile" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4F46E5"/>
+      <stop offset="0.55" stop-color="#4338CA"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="pdlGlow" x1="18" y1="16" x2="46" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#pdlTile)"/>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#pdlGlow)"/>
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M13 24.5c5.2-3.6 11.2-5.4 18-5.4 6.9 0 13 1.8 19.9 5.4" stroke-width="2.4" stroke-opacity="0.92"/>
+    <path d="M13 33.2c5.2-3.4 11.2-5.1 18-5.1 6.9 0 13 1.7 19.9 5.1" stroke-width="2.4" stroke-opacity="0.62"/>
+    <path d="M13 41.9c5.2-3.4 11.2-5.1 18-5.1 6.9 0 13 1.7 19.9 5.1" stroke-width="2.4" stroke-opacity="0.38"/>
+    <path d="M32 12.5v38.6" stroke-width="2.6" stroke-opacity="0.96"/>
+  </g>
+  <circle cx="32" cy="33.2" r="4.6" fill="#5EEAD4" stroke="#0F766E" stroke-width="1.6"/>
+  <circle cx="32" cy="33.2" r="1.6" fill="#0F172A"/>
+  <circle cx="32" cy="12.5" r="2.4" fill="#FFFFFF"/>
+  <circle cx="32" cy="51.1" r="2.4" fill="#A5B4FC"/>
+</svg>

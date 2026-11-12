@@ -1,0 +1,59 @@
+{
+  "name": "dsh-pdl-center",
+  "version": "1.0.0",
+  "description": "PDL well data loading center: a batch workbench and six-step wizard for the PDL engine, turning raw well data into GeoEast-ready load packages.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItLeLeYa/dsh-pdl-center.git"
+  },
+  "homepage": "https://github.com/ItLeLeYa/dsh-pdl-center#readme",
+  "bugs": {
+    "url": "https://github.com/ItLeLeYa/dsh-pdl-center/issues"
+  },
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "pdl",
+    "geoeast",
+    "well-data",
+    "data-loading",
+    "workbench"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "client-src",
+    "cordis.patch.yml",
+    "README.md",
+    "CHANGELOG.md",
+    "docs",
+    "python/pdl_center_adapter.py",
+    "python/README.md",
+    "tools/build-client.mjs",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-sidebar-right"
+      ]
+    }
+  }
+}

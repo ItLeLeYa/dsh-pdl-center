@@ -1,0 +1,14 @@
+# dependencies / build output
+node_modules/
+*.tgz
+*.log
+
+# local plugin state and caches
+.pdl-center/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
